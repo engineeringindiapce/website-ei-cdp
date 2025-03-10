@@ -28,6 +28,7 @@ export default function RootLayout({ children }) {
           name="description"
           content="Engineering India: Join our free club to access leading resources, develop engineering skills, and grow your career with expert guidance and community support."
         />
+            <meta name="google-site-verification" content="ghKlsCYI2p-BeL5UrSoIppnQmRAi7aaCSKV5oF9UpYs" />
         <meta
           name="keywords"
           content="Engineering India, free engineering resources, skill development, engineering club, career growth, India engineering community"
