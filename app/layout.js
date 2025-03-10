@@ -21,7 +21,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <Head>
+      <head>
         {/* Primary Meta Tags */}
         <title>Engineering India - Free Resources & Skill Development Club</title>
         <meta
@@ -61,10 +61,21 @@ export default function RootLayout({ children }) {
         {/* Canonical URL to Avoid Duplicate Content */}
         <link rel="canonical" href="https://www.engineeringindia.com" />
 
+
         {/* Favicon for Branding */}
         <link rel="icon" href="/favicon.ico" />
-      </Head>
-
+  <script type="application/ld+json">
+    {JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "Engineering India",
+      "url": "https://www.engineeringindia.com",
+      "description": "A free club providing leading engineering resources and skill development opportunities in India.",
+      "logo": "https://www.engineeringindia.com/vercel.svg",
+      "foundingDate": "2025",
+    })}
+  </script>
+</head>
       <SessionWrapper>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
