@@ -16,6 +16,18 @@ const geistMono = Geist_Mono({
 export const metadata = {
   title: "Engineering India",
   description: "Engineering India - Free Resources & Skill Development Club",
+  openGraph: {
+    title: "Engineering India",
+    description: "Engineering India - Free Resources & Skill Development Club",
+    url: "https://engineeringindia.com/", // Update with your actual URL
+    type: "website",
+    images: [
+      {
+        url: "/vercel.svg", // Update with your actual OG image URL
+        alt: "Engineering India Logo",
+      },
+    ],
+  },
 };
 
 export default function RootLayout({ children }) {
