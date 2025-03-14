@@ -44,7 +44,7 @@ export default function RootLayout({ children }) {
         />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://www.engineeringindia.com" />
-        <meta property="og:image" content="https://www.engineeringindia.com/vercel.svg" />
+        <meta property="og:image" content="/vercel.svg" />
         <meta property="og:site_name" content="Engineering India" />
 
         {/* Twitter Card Meta Tags */}
@@ -70,9 +70,9 @@ export default function RootLayout({ children }) {
       "@context": "https://schema.org",
       "@type": "Organization",
       "name": "Engineering India",
-      "url": "https://www.engineeringindia.com",
+      "url": "https://engineeringindia.com",
       "description": "A free club providing leading engineering resources and skill development opportunities in India.",
-      "logo": "https://www.engineeringindia.com/vercel.svg",
+      "logo": "https://engineeringindia.com/vercel.svg",
       "foundingDate": "2025",
     })}
   </script>
