@@ -7,6 +7,8 @@ import { useSession, signIn } from "next-auth/react";
 import { useRouter } from 'next/navigation';
 import { FcGoogle } from "react-icons/fc";
 
+<meta name="google-site-verification" content="ghKlsCYI2p-BeL5UrSoIppnQmRAi7aaCSKV5oF9UpYs" />
+
 export default function AuthPage() {
   const [isFlipped, setIsFlipped] = useState(false);
   const { data: session } = useSession();
