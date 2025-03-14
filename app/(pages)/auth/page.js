@@ -9,26 +9,26 @@ import { FcGoogle } from "react-icons/fc";
 
 
 
-export const metadata = {
-  title: "Login | Engineering India",
-  description: "Securely log in to your Engineering India account to access resources and manage your profile.",
-   // Prevents search engines from indexing the login page
-  openGraph: {
-    title: "Login | Engineering India",
-    description: "Access your Engineering India account securely.",
-    url: "https://engineeringindia.co.in/auth", // Update with actual URL
-    type: "website",
-    images: [
-      {
-        url: "https://engineeringindia.co.in/vercel.svg", // Add a relevant OG image
-        width: 1200,
-        height: 630,
-        alt: "Login Page",
-      },
-    ],
-  },
+// export const metadata = {
+//   title: "Login | Engineering India",
+//   description: "Securely log in to your Engineering India account to access resources and manage your profile.",
+//    // Prevents search engines from indexing the login page
+//   openGraph: {
+//     title: "Login | Engineering India",
+//     description: "Access your Engineering India account securely.",
+//     url: "https://engineeringindia.co.in/auth", // Update with actual URL
+//     type: "website",
+//     images: [
+//       {
+//         url: "https://engineeringindia.co.in/vercel.svg", // Add a relevant OG image
+//         width: 1200,
+//         height: 630,
+//         alt: "Login Page",
+//       },
+//     ],
+//   },
  
-};
+// };
 
   
 export default function AuthPage() {
