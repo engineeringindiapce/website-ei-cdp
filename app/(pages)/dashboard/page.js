@@ -12,33 +12,10 @@ import Footer from "@/app/components/ui/footer";
 import { Chart as ChartJS, CategoryScale, LinearScale, BarElement, Title, Tooltip, Legend } from 'chart.js';
 import { ToastContainer, toast } from 'react-toastify';
 ChartJS.register(CategoryScale, LinearScale, BarElement, Title, Tooltip, Legend);
+import Head from "next/head";
 
 
-// export const metadata = {
-//   title: "Free Resources | Engineering India",
-//   description: "Explore a wide range of free engineering resources, including study materials, project guides, and skill development tools.",
-//   keywords: "engineering resources, free study materials, skill development, project guides, technical tutorials",
-//   openGraph: {
-//     title: "Free Engineering Resources | Engineering India",
-//     description: "Access free study materials, project guides, and skill development resources for engineers.",
-//     url: "https://engineeringindia.co.in/dashboard", // Update with actual URL
-//     type: "website",
-//     images: [
-//       {
-//         url: "/vercel.svg", // Add a relevant OG image
-//         width: 1200,
-//         height: 630,
-//         alt: "Engineering India Resources",
-//       },
-//     ],
-//   },
-//   twitter: {
-//     card: "summary_large_image",
-//     title: "Free Engineering Resources | Engineering India",
-//     description: "Get access to free study materials, project guides, and skill-building resources.",
-//     images: ["/vercel.svg"],
-//   },
-// };
+
 
 
 
@@ -181,6 +158,26 @@ function Dashboard() {
 
   return (
     <div className="relative min-h-screen">
+  <Head>
+        <title>Free Resources | Engineering India</title>
+        <meta name="description" content="Explore free engineering resources, including study materials, project guides, and skill development tools." />
+        <meta name="keywords" content="engineering resources, free study materials, skill development, project guides, technical tutorials" />
+        <meta name="robots" content="index, follow" />
+
+        {/* Open Graph for Social Media */}
+        <meta property="og:title" content="Free Engineering Resources | Engineering India" />
+        <meta property="og:description" content="Access free study materials, project guides, and skill development resources for engineers." />
+        <meta property="og:url" content="https://engineeringindia.co.in/dashboard" />
+        <meta property="og:type" content="website" />
+        <meta property="og:image" content="https://engineeringindia.co.in/vercel.svg" />
+
+        {/* Twitter Meta Tags */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Free Engineering Resources | Engineering India" />
+        <meta name="twitter:description" content="Get access to free study materials, project guides, and skill-building resources." />
+        <meta name="twitter:image" content="https://engineeringindia.co.in/vercel.svg" />
+      </Head>
+    
        <ToastContainer />
       <Einavbar />
       <main className="">
