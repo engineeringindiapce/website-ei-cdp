@@ -13,6 +13,35 @@ import { Chart as ChartJS, CategoryScale, LinearScale, BarElement, Title, Toolti
 import { ToastContainer, toast } from 'react-toastify';
 ChartJS.register(CategoryScale, LinearScale, BarElement, Title, Tooltip, Legend);
 
+
+export const metadata = {
+  title: "Free Resources | Engineering India",
+  description: "Explore a wide range of free engineering resources, including study materials, project guides, and skill development tools.",
+  keywords: "engineering resources, free study materials, skill development, project guides, technical tutorials",
+  openGraph: {
+    title: "Free Engineering Resources | Engineering India",
+    description: "Access free study materials, project guides, and skill development resources for engineers.",
+    url: "https://engineeringindia.co.in/dashboard", // Update with actual URL
+    type: "website",
+    images: [
+      {
+        url: "/vercel.svg", // Add a relevant OG image
+        width: 1200,
+        height: 630,
+        alt: "Engineering India Resources",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Free Engineering Resources | Engineering India",
+    description: "Get access to free study materials, project guides, and skill-building resources.",
+    images: ["/vercel.svg"],
+  },
+};
+
+
+
 // Loading Component
 const LoadingSpinner = () => (
   <div className="fixed inset-0 flex items-center justify-center bg-gray-100 bg-opacity-75 z-50">
