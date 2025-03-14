@@ -14,31 +14,31 @@ import { ToastContainer, toast } from 'react-toastify';
 ChartJS.register(CategoryScale, LinearScale, BarElement, Title, Tooltip, Legend);
 
 
-export const metadata = {
-  title: "Free Resources | Engineering India",
-  description: "Explore a wide range of free engineering resources, including study materials, project guides, and skill development tools.",
-  keywords: "engineering resources, free study materials, skill development, project guides, technical tutorials",
-  openGraph: {
-    title: "Free Engineering Resources | Engineering India",
-    description: "Access free study materials, project guides, and skill development resources for engineers.",
-    url: "https://engineeringindia.co.in/dashboard", // Update with actual URL
-    type: "website",
-    images: [
-      {
-        url: "/vercel.svg", // Add a relevant OG image
-        width: 1200,
-        height: 630,
-        alt: "Engineering India Resources",
-      },
-    ],
-  },
-  twitter: {
-    card: "summary_large_image",
-    title: "Free Engineering Resources | Engineering India",
-    description: "Get access to free study materials, project guides, and skill-building resources.",
-    images: ["/vercel.svg"],
-  },
-};
+// export const metadata = {
+//   title: "Free Resources | Engineering India",
+//   description: "Explore a wide range of free engineering resources, including study materials, project guides, and skill development tools.",
+//   keywords: "engineering resources, free study materials, skill development, project guides, technical tutorials",
+//   openGraph: {
+//     title: "Free Engineering Resources | Engineering India",
+//     description: "Access free study materials, project guides, and skill development resources for engineers.",
+//     url: "https://engineeringindia.co.in/dashboard", // Update with actual URL
+//     type: "website",
+//     images: [
+//       {
+//         url: "/vercel.svg", // Add a relevant OG image
+//         width: 1200,
+//         height: 630,
+//         alt: "Engineering India Resources",
+//       },
+//     ],
+//   },
+//   twitter: {
+//     card: "summary_large_image",
+//     title: "Free Engineering Resources | Engineering India",
+//     description: "Get access to free study materials, project guides, and skill-building resources.",
+//     images: ["/vercel.svg"],
+//   },
+// };
 
 
 
