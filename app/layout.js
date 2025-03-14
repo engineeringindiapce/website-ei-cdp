@@ -23,7 +23,7 @@ export const metadata = {
     type: "website",
     images: [
       {
-        url: "/vercel.svg", // Update with your actual OG image URL
+        url: "https://engineeringindia.co.in/vercel.svg", // Update with your actual OG image URL
         alt: "Engineering India Logo",
       },
     ],
