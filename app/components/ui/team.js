@@ -7,7 +7,7 @@ import { FaRocket } from 'react-icons/fa';
 
 const testimonials = [
   {
-    text: "Through Engineering India, I have played a pivotal role in connecting academia with industry by leading hands-on workshops, training sessions, and hackathons, fostering collaboration with industry experts. Their extensive experience has helped shape coordinators by equipping them with critical technical and professional skills. Additionally, I have been actively engaged in social initiatives, conducting surveys and outreach programs to address key challenges, further strengthening their leadership and social impact. ",
+    text: "Through Engineering India, I have connected academia with industry by leading workshops, training, and hackathons. Collaborating with experts, I’ve enhanced skills and contributed to social initiatives, surveys, and outreach programs.",
     name: "Bhushan Madankar",
     title: "Project Coordinator",
     image: "./photos/bhushan.jpg",
@@ -17,7 +17,7 @@ const testimonials = [
     stats: { projects: 15, hours: 300 },
   },
   {
-    text: "Working on a project for Engineering India has been an enriching experience, bridging academia and industry through workshops, hackathons, and training sessions. Collaborating with experts and peers enhanced my technical and leadership skills. Engaging in social initiatives, conducting surveys, and outreach programs deepened my commitment to innovation and community impact, making this journey one of growth, learning, and meaningful change.",
+    text: "Working on a project for Engineering India has been a rewarding journey, bridging academia and industry through workshops and hackathons. Collaborating with experts enhanced my skills, while social initiatives strengthened my impact.",
     name: "Yashpal Chandewar",
     title: "Web Developer",
     image: "./photos/yashpal.png",
@@ -27,7 +27,7 @@ const testimonials = [
     stats: { projects: 10, hours: 250 },
   },
   {
-    text: "Through Engineering India, I have helped bridge academia and industry by organizing workshops, training sessions, and hackathons. Working with experts, I have supported students in building technical and professional skills. I have also contributed to social initiatives, strengthening leadership and community impact.",
+    text: "Through Engineering India, I have bridged academia and industry by organizing workshops, training, and hackathons. Collaborating with experts, I’ve helped students build skills while contributing to leadership and community impact.",
     name: "Karan Yede",
     title: "Backend Project Developer",
     image: "./photos/karan.jpg",
